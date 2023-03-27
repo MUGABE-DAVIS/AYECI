@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+border: none;
+scroll-behavior: smooth;
+outline: none;
+font-family: 'Poppins',sans-serif
+}
+:root{
+    --bg--clr:rgb(88, 202, 240);
+    --bg--clr2:lightgrey;
+    --txt--clr3:red;
+}
+body{
+    background:lightgray;
+    margin: 0.5rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    padding: 2rem 7%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    background: rgb(5, 180, 228);
+
+}
+.header:hover{
+    border-bottom: 1px solid rgb(50, 26, 27);
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+    position: absolute;
+}
+.navbar .navlinks{
+    margin-left: 550px;
+    
+}
+.navbar h3{
+    font-size: 1.6rem;
+    color: black;
+}
+span{
+    color: rgb(239, 84, 91);
+}
+.navbar a , .footer a{
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color:rgb(58, 29, 29);
+}
+.navbar a:hover, .footer a:hover{
+    color: brown;
+}
+.main{
+    margin-top: 5%;
+    background: url(/assets/images/env_6.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+}
+.main h2{
+    align-items: center;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 15%;
+    position: absolute;
+    
+}
+.about{
+    padding: 0.5rem;
+    margin: 0;
+    width: 100%;
+
+}
+.about h3{
+    text-align: center;
+    font-size: 2rem;
+    color: brown;
+}
+.about-bdy{
+    display: flex;
+    padding: 2rem;
+    width: 100%;
+    gap: 2rem;
+
+}
+.about-bdy .about-img{
+    width: 45%;
+}
+.about-img img{
+    width: 500px;
+
+}
+.about-content{
+    padding: 2rem 0 ;
+}
+.about-content h4{
+    text-align: center;
+    font-size: 35px;
+}
+.about-content p{
+    font-size: 25px;
+    padding: 5px;
+}
+.btn{
+    border: 0.2rem solid rgb(197, 131, 135);
+    padding: 5px;
+    background:var(--bg--clr2) ;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    
+
+}
+.btn:hover{
+    background: brown;
+    color:rgb(21, 20, 20);
+}
+.team{
+    display:flex;
+    margin: .5rem;
+}
+.team .member{
+    width: 31%;
+    padding: 2rem;
+    border: 0.2rem solid rgb(236, 225, 226);
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.member img{
+    width: 100%;
+    height: 20rem;
+    border-radius: 50%;
+
+
+}
+.member h4,
+.member h5,
+.member p{
+    text-align: center;
+    padding: 5px;
+}
+.services{
+    padding: 1.2rem;
+    margin: 5px;
+    
+
+}
+.services h3,
+.contact h3{
+    text-align: center;
+    font-size: 2rem;
+}
+.service-bdy {
+    background: white;
+    display: flex;
+    font-size: 1.5rem;
+    padding: 12px;
+    margin: 10px;
+    gap:1.5rem;
+
+}
+.services .left{
+    padding: 5px;
+    background:rgb(5, 180, 228) ;
+}
+.right .col{
+    padding: 5px;
+    border: 0.1rem;
+    text-align: center;
+}
+.contact form{
+    
+    justify-content: center;
+    text-align: center;
+    max-width: 70rem;
+    margin: 1rem auto;
+}
+.contact form .input-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    margin: .7rem 0;
+}
+.contact form .input-box input {
+    width: 30%;
+    border-radius: .5rem;
+    margin-left: 10px;
+
+}
+footer{
+    background:rgb(5, 180, 228) ;
+    text-align: center;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.footer .col{
+    width: 30%;
+    padding: .5rem;
+
+}
+.footer a,.footer p{
+    display: block;
+    text-decoration: none;
+    font-size: 1.6rem;
+    
+}
+.footer h4{
+    font-size: 2rem;
+    color: brown;
+}
+footer p{
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+
+
+
+
